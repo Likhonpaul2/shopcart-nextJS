@@ -38,7 +38,7 @@ const Footer = () => {
                 <li key={item?.title}>
                   <Link
                     href={item?.href}
-                    className="hover:text-shop_light_green hoverEffect font-medium"
+                    className="hover:text-shop_light_green hoverEffect font-light"
                   >
                     {item?.title}
                   </Link>
@@ -55,7 +55,7 @@ const Footer = () => {
                 <li key={item?.title}>
                   <Link
                     href={`/category/${item?.href}`}
-                    className="hover:text-shop_light_green hoverEffect font-medium"
+                    className="hover:text-shop_light_green hoverEffect font-light"
                   >
                     {item?.title}
                   </Link>
